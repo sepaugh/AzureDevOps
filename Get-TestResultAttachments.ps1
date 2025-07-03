@@ -25,7 +25,7 @@
     The Azure DevOps REST API version to use. [string] Optional. Default is "7.2-preview".
 
 .EXAMPLE
-    Get-TestResultAttachments -Organization "your_organization" -ProjectId "your_project_id" -TestRunID "your_test_run_id" -Pat "your_PAT"
+    Get-TestResultAttachments -Organization "your_organization" -ProjectId "your_project_id" -TestRunID "your_test_run_id" -Pat "your_PAT" -SaveDirectory "C:\Attachments"
 
 #>
 
